@@ -1,0 +1,19 @@
+# Игнорирование служебных файлов ОС
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Игнорирование логов и зависимостей
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+
+# Игнорирование сборки
+/dist/
+/build/
+
+# Игнорирование окружения
+.env
+.env.local
+.env.production
